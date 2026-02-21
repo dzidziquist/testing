@@ -1,0 +1,19 @@
+project_id = "kcehpjgwcxdxevidpqxp"
+
+[functions.style-assistant]
+verify_jwt = false
+
+[functions.scrape-product]
+verify_jwt = false
+
+[functions.analyze-clothing]
+verify_jwt = false
+
+[functions.analyze-outfit]
+verify_jwt = false
+
+[functions.daily-outfit]
+verify_jwt = false
+
+[functions.get-weather]
+verify_jwt = false

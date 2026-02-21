@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" width="200" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <g transform="translate(100, 100)">
+    <!-- Petal 1 — top -->
+    <path d="M0 2 C-3 -16, -10 -42, -5 -60 C0 -70, 6 -60, 6 -46 C6 -26, 3 -12, 0 2Z"
+          fill="#C9A96E" opacity="0.92" stroke="#C9A96E" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M0 2 C-3 -16, -10 -42, -5 -60 C-8 -52, -9 -36, -7 -20 C-5 -9, -2 -3, 0 2Z"
+          fill="#6B4E2A" opacity="0.5"/>
+
+    <!-- Petal 2 — right -->
+    <path d="M0 0 C14 -10, 38 -18, 50 -8 C58 0, 48 10, 32 8 C17 6, 6 2, 0 0Z"
+          fill="#C9A96E" opacity="0.85" stroke="#C9A96E" stroke-width="0.6" stroke-linecap="round"/>
+    <path d="M0 0 C14 -10, 38 -18, 50 -8 C42 -12, 28 -12, 16 -6 C8 -2, 2 0, 0 0Z"
+          fill="#F0E6D3" opacity="0.22"/>
+
+    <!-- Petal 3 — bottom -->
+    <path d="M0 2 C4 20, 10 46, 2 60 C-4 70, -12 60, -12 44 C-12 24, -6 10, 0 2Z"
+          fill="#C9A96E" opacity="0.88" stroke="#C9A96E" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M0 2 C4 20, 10 46, 2 60 C6 50, 6 34, 2 20 C0 10, 0 4, 0 2Z"
+          fill="#6B4E2A" opacity="0.42"/>
+
+    <!-- Petal 4 — left -->
+    <path d="M0 0 C-14 -6, -38 -10, -50 -2 C-58 4, -50 16, -34 16 C-18 16, -6 6, 0 0Z"
+          fill="#C9A96E" opacity="0.82" stroke="#C9A96E" stroke-width="0.6" stroke-linecap="round"/>
+    <path d="M0 0 C-14 -6, -38 -10, -50 -2 C-42 -8, -26 -10, -14 -4 C-6 0, -2 0, 0 0Z"
+          fill="#F0E6D3" opacity="0.18"/>
+
+    <!-- Petal 5 — top right diagonal -->
+    <path d="M2 -2 C12 -18, 30 -34, 42 -32 C50 -30, 48 -18, 36 -12 C26 -6, 12 -4, 2 -2Z"
+          fill="#F0E6D3" opacity="0.55" stroke="#C9A96E" stroke-width="0.35"/>
+
+    <!-- Petal 6 — bottom left diagonal -->
+    <path d="M-2 4 C-12 18, -28 34, -40 32 C-48 30, -46 18, -34 12 C-24 6, -10 4, -2 4Z"
+          fill="#F0E6D3" opacity="0.55" stroke="#C9A96E" stroke-width="0.35"/>
+
+    <!-- Petal 7 — top left accent -->
+    <path d="M-2 -2 C-12 -16, -28 -32, -40 -30 C-48 -28, -46 -16, -34 -10 C-22 -4, -10 -2, -2 -2Z"
+          fill="#6B4E2A" opacity="0.48" stroke="#C9A96E" stroke-width="0.3"/>
+
+    <!-- Petal 8 — bottom right accent -->
+    <path d="M2 4 C12 16, 28 30, 40 28 C48 26, 46 14, 34 8 C22 2, 10 2, 2 4Z"
+          fill="#6B4E2A" opacity="0.48" stroke="#C9A96E" stroke-width="0.3"/>
+
+    <!-- Vein lines -->
+    <path d="M0 2 C-1 -10, -2 -26, -3 -44" fill="none" stroke="#3A2A10" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
+    <path d="M0 2 C1 14, 2 30, 1 50" fill="none" stroke="#3A2A10" stroke-width="0.7" opacity="0.4" stroke-linecap="round"/>
+    <path d="M0 0 C10 -2, 26 -6, 40 -6" fill="none" stroke="#3A2A10" stroke-width="0.6" opacity="0.3" stroke-linecap="round"/>
+    <path d="M0 0 C-10 -2, -26 -4, -40 -2" fill="none" stroke="#3A2A10" stroke-width="0.6" opacity="0.3" stroke-linecap="round"/>
+
+    <!-- Center -->
+    <circle cx="0" cy="1" r="9" fill="#0A0A0A"/>
+    <circle cx="0" cy="1" r="5.5" fill="#C9A96E"/>
+    <circle cx="0" cy="1" r="2.5" fill="#0A0A0A"/>
+    <circle cx="0" cy="1" r="1" fill="#F0E6D3"/>
+  </g>
+
+</svg>

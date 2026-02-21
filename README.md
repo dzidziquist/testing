@@ -109,6 +109,37 @@ npm install
 npm run dev
 ```
 
+## Mobile App (iOS + Android)
+
+This project now uses **Capacitor** to package the existing React app as native mobile apps.
+
+### 1) Install dependencies
+
+```sh
+npm install
+```
+
+### 2) Build web assets + create native projects
+
+```sh
+# One-time setup per platform
+npm run cap:add:ios
+npm run cap:add:android
+
+# Build + sync web assets into native projects
+npm run cap:sync:ios
+npm run cap:sync:android
+```
+
+### 3) Open native IDEs
+
+```sh
+npm run cap:open:ios
+npm run cap:open:android
+```
+
+From there, run the app from Xcode (iOS simulator/device) or Android Studio (emulator/device).
+
 ## Testing
 
 ```sh
